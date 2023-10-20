@@ -1,0 +1,116 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Roboto+Mono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+.main{
+    margin-inline: 17%;
+}
+.header{
+    font-family:"Black Ops One";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-inline: 17%; */
+    margin-top: 6%;
+}
+.header-text{
+    display: flex;
+    align-items: center;
+}
+.header-text i{
+    margin-left:20px ;
+    font-size: 20px;
+}
+.time-div{
+    display:flex;
+    justify-content: space-between;
+    /* margin-inline: 17%; */
+    padding: 20px 0;
+}
+.time-div>div{
+    font-size: 22px;
+}
+.time-btn>button{
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+.time-btn>button:hover{
+    color:green
+    
+}
+
+.typeBox>span{
+    font-size: 28px;
+    color: #808080;
+    font-family: monospace;
+    line-height: 50px;
+}
+.reload-div{
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+}
+.reload-btn{
+    font-size: 20px;
+    border: none;
+    cursor: pointer; 
+}
+.reset-div{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.reset-text{
+    padding: 5px;
+    border: none;
+    font-size: 14px;
+}
+.reset-btn{
+    background-color: white;
+    color: black;
+    border-radius: 30%;
+    width: 50px;
+    
+}
+.text{
+    font-size: 20px;
+}
+.word-div>button{
+    margin-inline: 5px;
+}
+.reset-text2{
+    padding: 2px;
+    border: none;
+    /* font-size: 14px; */
+}
+.word-div{
+    display: flex;
+    justify-content: center;
+}
+.socialmedia-icon>a{
+    font-size: 24px;
+    margin-inline: 10px;
+}
+.socialmedia-icon{
+    margin-top: 20px;
+}
+.social-div{
+    display: flex;
+    justify-content: space-between;
+}
+.color-select{
+    background-color: white;
+    color: black;
+    min-width: fit-content;
+    padding: 10px;
+    font-size: 18px;
+}
+
